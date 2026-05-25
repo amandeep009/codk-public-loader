@@ -1,0 +1,20 @@
+name: Purge jsDelivr cache
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "rabbit-wrapper.js"
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge @main
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/amandeep009/codk-public-loader@main/rabbit-wrapper.js"
+          echo ""
+      - name: Purge @latest
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/amandeep009/codk-public-loader@latest/rabbit-wrapper.js"
+          echo ""
