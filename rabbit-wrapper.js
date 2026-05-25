@@ -5,8 +5,8 @@
   if (window.__codkWrapperLoaded) return;
   window.__codkWrapperLoaded = true;
   console.log(
-    "%c████████████ codk-wrapper ████████████",
-    "font-weight: bold; font-size: 14px; background: black; color: black; padding: 4px 8px; border-radius: 4px;",
+    "%c████████████ codk-wrapper 2████████████",
+    "font-weight: bold; font-size: 14px; background: pink; color: black; padding: 4px 8px; border-radius: 4px;",
   );
 
   const MAIN_SCRIPT_BASE =
