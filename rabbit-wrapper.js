@@ -5,7 +5,7 @@
   if (window.__codkWrapperLoaded) return;
   window.__codkWrapperLoaded = true;
   console.log(
-    "%c████████████ codk-wrapper 6████████████",
+    "%c████████████ codk-wrapper 7████████████",
     "font-weight: bold; font-size: 14px; background: pink; color: black; padding: 4px 8px; border-radius: 4px;",
   );
 
